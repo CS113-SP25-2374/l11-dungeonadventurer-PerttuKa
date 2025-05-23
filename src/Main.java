@@ -8,6 +8,9 @@ public class Main {
             System.out.print("\n");
         }
 
+        Adventurer adventurer = new Adventurer();
+        adventurer.solveMap(DungeonMap.MAP);
+
         // TODO: Complete this lab!
     }
 }
